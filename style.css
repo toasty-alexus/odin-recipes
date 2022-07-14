@@ -10,7 +10,49 @@ p{
     color:white;
     font-size:18px
 }
+
 button{
     background-color: orange;
     font-size: 18px;
+}
+/* Margin and Padding #1 lesson from The Odin Project */
+div#one,div#two,div#three{
+    background-color: grey;
+}
+div#one{
+    border:3px solid black;
+    padding:32px;
+    margin:12px;
+}
+div#two{
+    border:3px solid black;
+    margin-bottom:48px;
+}
+div#three{
+    border:3px solid black;
+    width:400px;
+    padding:32px;
+    margin-left:auto;
+}
+/* Margin and Padding #2 lesson from The Odin Project */
+#content{
+    margin:8px;
+    padding:16px 8px;
+}
+#card div{
+    padding:8px;
+}
+#title{
+    margin-top:0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding:8px;
+    background-color: rgb(111, 109, 109);
+    color:black;
+}
+#secondBtn{
+    text-align: center;
+    padding:8px 24px;
+    display: block;
+    margin:0 auto;
 }
